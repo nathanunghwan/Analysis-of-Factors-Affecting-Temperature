@@ -20,24 +20,24 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 ## 1. create a series of scatter plots
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig1.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig1.png"
+  width="230"
+  height="200"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig2.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig2.png"
+  width="230"
+  height="200"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig3.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig3.png"
+  width="230"
+  height="200"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig4.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig4.png"
+  width="230"
+  height="200"
 />
 
 ## 2. Compute Linear Regression for Each Relationship
@@ -59,13 +59,13 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 - The northern Hemisphere has a high correlation between latitude and maximum temperature, but the southern Hemisphere has a lower correlation than the northern Hemisphere. The Maximum temperature in the southern Hemisphere is influenced by other factors as well as latitude.
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig5.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig5.png"
+  width="230"
+  height="180"
 /><img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig6.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig6.png"
+  width="230"
+  height="180"
 />
 
 ### <ins>Analysis between humidity and latitude  on Northern Hemisphere</ins> 
@@ -76,28 +76,28 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 - We can see that humidity will increase 0.5 for every 1 degree increase in latitude.
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig7.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig7.png"
+  width="230"
+  height="180"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig8.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig8.png"
+  width="230"
+  height="180"
 />
 
 ### <ins>Analysis between cloudiness and latitude</ins>  
 - The corelation between latitude and cloudiness is low in both the northern and southern hemisphere(Northern r value : 0.29, Southern r value is 0.23). Therefore, it is difficult to predict cloudiness depending on the change in latitude.
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig9.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig9.png"
+  width="230"
+  height="180"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig10.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig10.png"
+  width="230"
+  height="180"
 />
 
 
@@ -105,14 +105,14 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 - Wind speed and latitude are not related on the northern hemisphere.(r value is 0.06) The southern hemisphere is more relevant than the northern hemisphere, but it does not show enough relevance to predict wind speed with latitude.(r value is -0.29)
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig11.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig11.png"
+  width="230"
+  height="180"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig12.png"
-  width="200"
-  height="150"
+  src="WeatherPy/output_data/Fig12.png"
+  width="230"
+  height="180"
 />
 
 ### <ins>Analysis between latitude and other facts related to the max temperature.</ins>    
@@ -125,14 +125,14 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 - In the given data set, it can be seen that humidity affects temperature in addition to latitude.
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig13.png"
-  width="200"
-  height="80"
+  src="WeatherPy/output_data/Fig13.png"
+  width="450"
+  height="150"
 />
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/Fig14.png"
-  width="200"
-  height="80"
+  src="WeatherPy/output_data/Fig14.png"
+  width="450"
+  height="150"
 />
 ***
 # Vacation Planning
@@ -140,9 +140,9 @@ I found that the maximum temperature decreases less on the Southern Hemisphere t
 Create a map that displays a point for every city by using the city data collected above.(The size of the point is the humidity in each city)
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/plot15.png"
-  width="400"
-  height="250"
+  src="WeatherPy/output_data/plot15.png"
+  width="500"
+  height="300"
 />
 
 Narrow down the data to find your ideal weather condition. 
@@ -155,7 +155,7 @@ For each city, use the Geoapify API to find the first hotel located within 10,00
 Add the hotel name and the country as additional information in the hover message for each city on the map
 
 <img
-  src="/Users/unghwanahn/git/Python_API_Challange/WeatherPy/output_data/plot16.png"
-  width="400"
-  height="250"
+  src="WeatherPy/output_data/plot16.png"
+  width="500"
+  height="300"
 />
